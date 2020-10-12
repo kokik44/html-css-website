@@ -13,8 +13,6 @@ body {
   overflow: hidden;
 }
 
-.section {}
-
 .section-title {
   font-size: 32px;
   color: #000000;
@@ -480,24 +478,32 @@ footer>p {
     padding: 0;
     width: 90%;
   }
-  .contact-content > p{
+
+  .contact-content>p {
     padding: 0;
   }
-  .contact-main{
+
+  .contact-main {
     display: block;
   }
-  .contact-info,.contact-social{
+
+  .contact-info,
+  .contact-social {
     width: auto;
     padding: 0;
     text-align: center;
   }
-  .contact-info{
+
+  .contact-info {
     margin-bottom: 20px;
   }
-  .contact-social > h3{
+
+  .contact-social>h3 {
     margin-bottom: 5px;
   }
-  .contact-icons > i:nth-child(1),.contact-icons >i:nth-child(2){
+
+  .contact-icons>i:nth-child(1),
+  .contact-icons>i:nth-child(2) {
     margin-right: 8px;
   }
 }
